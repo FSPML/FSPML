@@ -1,14 +1,5 @@
 **News!!!**   
-**[10/30/2019]** A new paper is accepted by IEEE TKDE!!!   
-**[12/10/2018]** We change the project name from **HybridGraph** to **HGraph** for short!!!  
-**[11/20/2018]** Priority scheduling for `BPull` is now available.   
-**[10/20/2018]** More example graph algorithms are packaged.   
-**[09/09/2018]** A general switching framework is added.  
-**[05/11/2017]** Lightweight fault-tolerance is added.  
-**[04/05/2017]** Some engineering optimizations are added for better performance.  
-**[02/17/2017]** Some APIs are changed.  
-**[12/25/2016]** Code cleanup.  
-**[05/15/2016]** HybridGraph is online.  
+**[07/07/2022]** HybridGraph is online.  
 
 # HGraph
 HGraph(HybridGraph) is a Pregel-like system which merges Pulling/Pushing for I/O-Efficient distributed and iterative graph computing.
