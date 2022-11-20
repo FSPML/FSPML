@@ -66,7 +66,7 @@ An example is given in [random_sample](https://github.com/FSPML/FSPML/random_sam
 Currently, Flegel simply evenly partitions the input sample data across workers.   
 
 Second, submit the KMeans job:   
-`termite jar $Flegel/termite-examples-0.1.jar kmeans input output 16 1000 11000000 100 28 3 -1 0 3.5E7 -1`  
+`termite jar $Flegel/termite-examples-0.1.jar kmeans input output 16 1000 10000 10 20 3 -1 0 3.5E7 -1`  
 About arguments:  
 [1] input directory on HDFS
 
