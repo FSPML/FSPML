@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/termite-0.2/lib/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="/termite-0.2/lib/hadoop-0.20.2-core.jar"/>
+	<classpathentry kind="lib" path="/termite-0.2/lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="/termite-0.2/build/termite-core-0.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
