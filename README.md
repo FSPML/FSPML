@@ -4,7 +4,6 @@ Flegel is an open-source machine learning system which implements our newly prop
 ## 1. Introduction
 Existing machine learning systems typically employ Bulk Synchronous Parallel (BSP) to accelerate iterative computations in distributed environments. However, BSP usually establishes the synchronization locations between two consecutive iterations by pre-assigning workloads, i.e., the number of sample data points in each training batch. Such a design is simple but poses great performance challenges because fast workers must wait for slow, straggling ones, especially in a heterogeneous cloud cluster. Asynchronous Parallel (ASP) alternatives can bypass this performance bottleneck, but at expense of potentially losing convergence guarantees. Flegel thereby implements our newly designed Flexible Synchronous Parallel (FSP) by establishing synchronization barriers in a time-based manner, to overcome shortcomings of BSP and ASP. 
 
-The Flegel project started at UMASS Amherst (USA) in 2017. Now it is continuously developing at Ocean University of China (China). Flegel is a Java framework implemented on top of Apache Hama 0.2.0-incubating. Features of Flegel are listed as below.
 
 * ___Flexible Synchronous Parallel:___ It provides strict convergence guarantee by consistently updating parameters like BSP, as well as significant runtime reduction by completely unleashing the power of all workers like ASP.    
 * ___Optimized Synchronization Interval:___ A robustness adjustor can adaptively and dynamically tune the synchronization interval, by continuously collecting runtime statistics and performing a linear fit estimation.     
@@ -108,5 +107,5 @@ By default, all parts will be built, and you can find `termite-core-0.1.jar` and
 Flegel includes some representative machine learning algorithms to show the usage of its APIs. These algorithms are contained in the `src/examples/` package and have been packaged into the `termite-examples-0.1.jar` file. Users can implement their own algorithms by learning these examples. After that, as described in Section 3 and Section 2.4, you can build your own algorithm can then run it.
 
 ## 5. Contact  
-If you encounter any problem with Flegel, please feel free to contact wangzhigang@ouc.edu.cn.
+If you encounter any problem with Flegel, please feel free to contact yilei_tu@163.com.
 
